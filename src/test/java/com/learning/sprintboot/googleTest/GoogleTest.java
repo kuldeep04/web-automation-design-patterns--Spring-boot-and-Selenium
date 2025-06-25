@@ -10,6 +10,7 @@ import org.testng.Assert;
 
 import java.io.IOException;
 
+@Lazy
 public class GoogleTest extends SpringBaseTestNGTest {
 
     @Autowired

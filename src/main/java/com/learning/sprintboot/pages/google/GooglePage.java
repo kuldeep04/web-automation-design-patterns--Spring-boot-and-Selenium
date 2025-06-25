@@ -3,11 +3,13 @@ package com.learning.sprintboot.pages.google;
 import com.learning.sprintboot.pages.BasePage;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Component;
 
 import java.time.Duration;
 
 @Component
+@Lazy
 public class GooglePage extends BasePage {
 
     @Autowired
